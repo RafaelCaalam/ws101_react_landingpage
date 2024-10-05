@@ -1,0 +1,49 @@
+/* Main container for the courses section */
+.courses-container {
+    display: flex;
+    flex-direction: column; /* Stack everything vertically */
+    align-items: center; /* Center the content horizontally */
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Title of the section */
+  #services-title {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+  }
+  
+  /* Styling for each individual card */
+  .card {
+    background-color: #071529;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a slight shadow for depth */
+    padding: 20px;
+    width: 100%; /* Cards take full width of the container */
+    margin-bottom: 20px; /* Adds space between each card */
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Hover effect for each card */
+  .card:hover {
+    transform: translateY(-5px); /* Lifts the card slightly when hovered */
+  }
+  
+  /* Title of each card */
+  .card h3 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  /* Paragraph inside the card */
+  .card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+  }
+  
